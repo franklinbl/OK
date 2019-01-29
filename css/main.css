@@ -1,0 +1,254 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+.seccion1{
+	height: 700px;
+	background-image: linear-gradient(to left,rgba(46,191,145,.7),rgba(131,96,195,.8)), url("../img/banner.jpeg");
+	background-size: cover; 
+	background-attachment: fixed;
+}
+nav{
+	width: 85%;
+	height: 135px;
+	margin: auto;
+}
+figure img{
+	width: 200px;
+	margin-top: -15px;
+}
+nav ul li{
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	display: inline-block;
+	float: right;
+	font-weight: bold;
+	padding: 15px 0px;
+	position: relative;
+	margin: 0 7px;
+	bottom: 120px;
+}
+nav ul li:hover{
+	border-top: 2px solid #fff77c;
+	color: #fff77c;
+	padding: 13px 0px;
+}
+.contenedor_titulo_agencia{
+	width: 85%;
+	height: 400px;
+	margin: auto;
+}
+.agencia{
+	font-size: 120px;
+	margin: 125px 305px;
+	color: white;
+}
+section div :nth-child(2){
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: 130px;
+}
+.contenedor_botones_principales{
+	width: 350px;
+	margin: auto;
+	position: relative;
+	bottom: 100px;
+}
+.contenedor_botones_principales :first-child{
+	float: right;
+}
+.contenedor_botones_principales :nth-child(2){
+	position: relative;
+	top: 0px;
+	float: left;
+}
+.botones_principales{
+	color: #fff77c;
+	border: 2px solid #fff77c;
+	border-radius: 25px;
+	padding: 10px 25px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.botones_principales:hover{
+	color: rgb(131,96,195);
+	background: #fff77c;
+	transform: scale(1.1);
+}
+
+
+
+.seccion2{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	background: #ECEFF1;
+}
+.contenedor_seccion2{
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	top: 40px;
+}
+.contenedor_seccion2 h2{
+	position: relative;
+	top: 30px;
+	text-align: center;
+}
+.contenedor_tres_cuadros{
+	width: 100%;
+	height: 320px;
+	margin: 50px auto;
+	position: relative;
+	top: 0px;
+}
+.cuadro{
+	width: 27%;
+	height: 320px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	margin: 0 31px; 
+	background: white;
+	box-shadow: 0 0 30px rgb(144,164,174);
+}
+#cuadro_medio{
+	position: relative;
+	top: 130px;
+}
+.cuadro img{
+	width: 60%;
+	height: 170px;
+	margin-top: 20px;
+}
+.cuadro_abajo_img{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 25px; 
+}
+.cuadro_abajo_img h2{
+	position: relative;
+	top: 0;
+	color: rgb(131,96,195);
+}
+.cuadro_abajo_img p{
+	color: black;
+}
+.texto_tres_cuadros{
+	width: 100%;
+	height: 100x;
+	position: relative;
+	top: 15px;
+}
+
+
+
+.seccion3{
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(to left,rgba(46,191,145,.8),rgba(131,96,195,.9))
+}
+.contenedor_seccion3{
+	width: 85%;
+	height: 50px;
+	margin: auto;
+	position: relative;
+	top: 50px;
+}
+.eslogan{
+	font-size: 40px;
+	color: white;
+}
+.boton_contactar{
+	position: relative;
+	top: -45px;
+	float: right;
+	color: #fff77c;
+	border: 2px solid #fff77c;
+	border-radius: 25px;
+	padding: 10px 25px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.boton_contactar:hover{
+	color: rgb(131,96,195);
+	background: #fff77c;
+	transform: scale(1.1);
+}
+
+
+.seccion4{
+	width: 100%;
+	height: 350px;
+	background: white;
+}
+.contenedor_seccion4{
+	width: 80%;
+	height: 250px;
+	margin: 40px auto;
+}
+.nuestros_clientes{
+	text-align: center;
+}
+.clientes img{
+	width: 150px;
+	height: 140px;
+	position: relative;
+	top: 180px;
+	margin: 0 30px;
+	filter: grayscale(1);
+	opacity: .6;
+}
+.clientes img:hover{
+	width: 150px;
+	height: 140px;
+	position: relative;
+	top: 180px;
+	margin: 0 30px;
+	filter: grayscale(0);
+	opacity: 1;
+	transform: scale(1.2);
+}
+.samsung{
+	position: relative;
+	top: 0;
+}
+
+
+.seccion5{
+	width: 100%;
+	height: 350px;
+	background: linear-gradient(to left,rgba(46,191,145,.8),rgba(131,96,195,.9))
+}
+.pie{
+	width: 50%;
+	height: 250px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+.logo_pie{
+	
+	width: 200px;
+	height: 150px;
+	margin: auto;
+}
+.division_logopie_derechos{
+	width: 90px;
+	margin: auto;
+	border: 1px solid white;
+	position: relative;
+	top: 40px;
+}
+.derechos{
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+}
